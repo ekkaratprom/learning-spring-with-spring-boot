@@ -14,18 +14,18 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/reservations")
-public class RoomReservationController {
+public class RoomReservationWebController {
     private final ReservationService reservationService;
 
     @Autowired
-    public RoomReservationController(ReservationService reservationService) {
+    public RoomReservationWebController(ReservationService reservationService) {
         this.reservationService = reservationService;
     }
 
     @GetMapping
     public String getReservation(@RequestParam(value="date",required = false)String dateString, Model model){
-        Date date = DateUtils.createDateFromString(dateString);
-        List<RoomReservation> roomReservations = this.reservationService.getRoomReservationForDate(date);
+        Date date = DateUtils.createDateFromDateString(dateString);
+        List<RoomReservation> roomReservations = this.reservationService.getRoomReservationsForDate(date);
         model.addAttribute("roomReservations",roomReservations);
         return "reservations";
     }

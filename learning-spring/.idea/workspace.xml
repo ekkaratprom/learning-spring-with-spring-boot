@@ -30,16 +30,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.frankmoley.lil.learningspring.data.repository" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\keratikas\Desktop\Linkin\Ex_Files_Learning_Spring_Spring_Boot\Exercise Files\Chapter2\02_01\02_01_begin\learning-spring\src\main\resources" />
       <recent name="C:\Users\keratikas\Desktop\Linkin\Ex_Files_Learning_Spring_Spring_Boot\Exercise Files\Chapter2\02_01\02_01_begin\learning-spring\src\main\java\com\frankmoley\lil\learningspring\data\entity" />
       <recent name="C:\Users\keratikas\Desktop\Linkin\Ex_Files_Learning_Spring_Spring_Boot\Exercise Files\Chapter2\02_01\02_01_begin\learning-spring\src\main\java\com\frankmoley\lil\learningspring\data\repository" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.frankmoley.lil.learningspring.data.repository" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LearningSpringApplication">
     <configuration name="LearningSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.frankmoley.lil.learningspring.LearningSpringApplication" />
       <module name="learning-spring" />
@@ -53,9 +53,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoomReservationWebControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learning-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frankmoley.lil.learningspring.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.frankmoley.lil.learningspring.web" />
+      <option name="MAIN_CLASS_NAME" value="com.frankmoley.lil.learningspring.web.RoomReservationWebControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LearningSpringApplication" />
+        <item itemvalue="JUnit.RoomReservationWebControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -81,22 +97,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614071996438" />
-    <state width="1237" height="118" key="GridCell.Tab.0.bottom" timestamp="1614073297515">
+    <state width="1237" height="179" key="GridCell.Tab.0.bottom" timestamp="1614077116852">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="118" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614073297515" />
-    <state width="1237" height="118" key="GridCell.Tab.0.center" timestamp="1614073297514">
+    <state width="1237" height="179" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614077116852" />
+    <state width="1237" height="179" key="GridCell.Tab.0.center" timestamp="1614077116852">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="118" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614073297514" />
-    <state width="1237" height="118" key="GridCell.Tab.0.left" timestamp="1614073297514">
+    <state width="1237" height="179" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614077116852" />
+    <state width="1237" height="179" key="GridCell.Tab.0.left" timestamp="1614077116852">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="118" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614073297514" />
-    <state width="1237" height="118" key="GridCell.Tab.0.right" timestamp="1614073297514">
+    <state width="1237" height="179" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614077116852" />
+    <state width="1237" height="179" key="GridCell.Tab.0.right" timestamp="1614077116852">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="118" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614073297514" />
+    <state width="1237" height="179" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614077116852" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1613635345237">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
